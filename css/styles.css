@@ -1,0 +1,130 @@
+body{
+    background: repeat-x center top url('../images/sea.jpg') #c4c4c4;
+    font-family: Arial;
+}
+#body{
+    width: 1000px;
+    margin: 0 auto;
+}
+.clear{
+    clear: both;
+}
+a:hover{
+    text-decoration: none;
+}
+    header{
+        min-height: 600px;
+    }
+        #piano{
+            height: 44px;
+            background: repeat-x url('../images/piano.png') -4px 0;
+            border-left: 1px solid #000;
+            border-right: 1px solid #000;
+        }
+        nav#one{
+            padding: 20px 0;
+            margin-bottom: 30px;
+            overflow: hidden;
+        }
+        nav#one img{
+            margin-left: 60px;
+        }
+        nav#one ul{
+            background-color: #202020;
+            margin-top: 20px;
+        }
+        nav#one ul.left{
+            float: left;
+        }
+            nav#one ul.left li a{
+                padding: 12px 13px;
+            }
+        nav#one ul.right{
+            float: right;
+        }
+            nav#one ul.right li a{
+                padding: 12px 19px;
+            }
+            nav#one ul li{
+                float: left;
+                display: block;
+            }
+                nav#one ul li a, nav#one ul li a:visited{
+                    text-transform: uppercase;
+                    text-align: center;
+                    color: #fff;
+                    font-size: 16px;
+                    font-weight: bold;
+                    text-decoration: none;
+                    display: block;
+                }
+                nav#one ul li a:hover{
+                    background-color: #000;
+                }
+        #studio-info{
+            width: 400px;
+            float: left;
+        }
+            #studio-info .phone{
+                font-size: 38px;
+                font-weight: bold;
+            }
+            #studio-info .place a, #studio-info .place a:visited{
+                font-size: 14px;
+                margin-left: 10px;
+                color: #000;
+            }
+            #studio-info .follow{
+                margin-top: 70px;
+            }
+            #studio-info .follow div{
+                text-transform: uppercase;
+                font-size: 14px;
+                font-weight: bold;
+                margin-bottom: 10px;
+            }
+                #studio-info .follow a{
+                    float: left;
+                    margin-right: 15px;
+                    background: url('../images/social.png') 0 0 repeat-x;
+                    display: block;
+                    width: 30px;
+                    height: 30px;
+                }
+                #studio-info .follow .tw{
+                    background-position: 0 0;
+                }
+                #studio-info .follow .vk{
+                    background-position: -30px 0;
+                }
+                #studio-info .follow .fb{
+                    background-position: -60px 0;
+                }
+            #studio-info .top-text{
+                margin-top: 50px;
+                font-size: 14px;
+                color: #606060;
+                line-height: 1.5;
+                padding-right: 60px;
+            }
+        nav#second{
+            width: 600px;
+            float: left;
+        }
+            nav#second ul.small-rect{
+                width: 300px;
+                float: left;
+            }
+                nav#second ul.small-rect li{
+                    height: 130px;
+                    background-color: green;
+                }
+            nav#second ul.big-rect{
+                width: 300px;
+                height: 390px;
+                float: left;
+            }
+                nav#second ul.big-rect li{
+                    height: 100%;
+                    background-color: yellowgreen;
+                }
